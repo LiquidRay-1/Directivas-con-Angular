@@ -1,0 +1,6 @@
+<form (submit)="enviarFormulario();">
+    <input type="text" name="nombre" [(ngModel)] = "usuario.nombre" placeholder="Nombre de Usuario" autocomplete="off"/><br>
+    <input type="text" name="email" [(ngModel)] = "usuario.email" placeholder="Email de Usuario" autocomplete="off"/><br>
+
+    <button type="submit">Enviar</button>
+</form>

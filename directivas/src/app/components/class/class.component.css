@@ -1,0 +1,19 @@
+.circulo{
+    background-color: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.cuadrado{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.elipse{
+    background-color: red;
+    border-radius: 50%;
+    height: 75px;
+    width: 125px;
+}
